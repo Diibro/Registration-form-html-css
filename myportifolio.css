@@ -1,0 +1,83 @@
+body{
+    background-color: #c0c0c0;
+    background: radial-gradient(#f3f1f1 0%, rgb(65, 66, 65) 60%, #879b86 100%);
+    background-repeat: no-repeat;
+}
+#my-photo{
+    z-index: 1;
+    position: sticky;
+    width: 700px;
+    margin: 200px 0px 0px 100px;
+    float: left;
+}
+#my-photo1{
+    width: 230px;
+    height: 300px;
+    border-radius: 50px 0px 50px 0px;
+    position: inherit;
+    box-shadow: -10px 10px 20px rgb(44, 48, 39);
+    z-index: 3;
+}
+.my-name #my-photo:hover{
+    cursor: pointer;
+    position: inherit;
+    z-index: 2;
+    position: inherit;
+}
+#my-name{
+    font-size: 50px;
+    color: rgb(226, 240, 199);
+    background-color: rgb(161, 161, 161);
+    background: linear-gradient(rgb(161, 161, 161) 10%, #c2baba );
+    padding-top: 0px;
+    font-weight: 400;
+    padding-left: 100px;
+    margin-left: -90px;
+    padding-right: 20px;
+    border-radius: 0px 30px 0px 0px;
+    display: none;
+    z-index: 2;
+}
+#my-title{
+    color: rgb(44, 48, 39);
+    font-size: 50px;
+    font-weight: 600;
+    padding: 300px 0px 0px 400px;
+    text-shadow: 3px 3px 3px rgb(240, 213, 213);
+    z-index: 6;
+    position: absolute;
+}
+#navList{
+    float: right;
+    list-style-type: none;
+    margin: 140px 0px 0px 1000px;
+    width: 400px;
+    line-height: 30px;
+    position: absolute;
+    z-index: 10;
+}
+#navList li{
+    margin: 20px;
+    text-justify: center;
+    width: 320px;
+    border-radius: 60px;
+}
+#abbreva{
+    padding: 0px 55px 30px 20px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Tillana';
+    font-weight: bolder;
+    color: white;
+    display: none;
+}
+#navList ion-icon{
+    color: white;
+    font-size: 50px;
+    margin-left: 260px;
+    margin-top: 5px;
+}
+#iconBack{
+    height: 200px;
+    background-color: black;
+}
